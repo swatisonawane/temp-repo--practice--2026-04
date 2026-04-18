@@ -1,0 +1,10 @@
+name: First Workflow
+On: workflow_dispatch
+jobs: 
+  first_job:
+    runs-on: windowa-2019
+    steps:
+      - name: Print greeting
+        run: System.out.print("Hello");
+      - name: Print greeting1
+        run: System.out.print("Hello1");
